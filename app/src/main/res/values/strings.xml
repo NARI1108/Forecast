@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">forecast</string>
+    <string name="Your_age">سن شما</string>
 </resources>
