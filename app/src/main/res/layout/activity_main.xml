@@ -23,6 +23,12 @@
                 android:gravity="center"
                 android:layout_margin="4dp"
                 android:hint="@string/Your_age"/>
+            <Button
+                android:id="@+id/btn_mic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/microphone"/>
         </LinearLayout>
 
     </LinearLayout>
