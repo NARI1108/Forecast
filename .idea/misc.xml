@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/Desktop/forecast/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.123" />
         <entry key="..\:/Users/user/Desktop/forecast/app/src/main/res/drawable/edit_text_style.xml" value="0.1465" />
+        <entry key="..\:/Users/user/Desktop/forecast/app/src/main/res/drawable/ic_launcher_background.xml" value="0.123" />
         <entry key="..\:/Users/user/Desktop/forecast/app/src/main/res/drawable/microphone.xml" value="0.1475" />
         <entry key="..\:/Users/user/Desktop/forecast/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/user/Desktop/forecast/app/src/main/res/layout/activity_splash_screen.xml" value="0.13333333333333333" />
