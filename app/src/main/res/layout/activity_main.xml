@@ -33,27 +33,46 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/microphone"/>
     </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
             <EditText
                 android:id="@+id/edt_age"
-                android:inputType="number"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
-                android:gravity="center"
                 android:layout_margin="4dp"
+                android:background="@drawable/edit_text_style"
+                android:gravity="center"
                 android:hint="@string/Your_age"
-                android:background="@drawable/edit_text_style"/>
-          <Button
+                android:inputType="number" />
+
+            <Button
                 android:id="@+id/btn_mic_age"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="4dp"
-                android:background="@drawable/microphone"/>
-    </LinearLayout>
+                android:background="@drawable/microphone"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Are_you_Girl_or_boy"
+                android:textColor="#0F0808"
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

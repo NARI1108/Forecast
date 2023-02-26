@@ -2,4 +2,8 @@
     <string name="app_name">forecast</string>
     <string name="Your_Name">نام شما</string>
     <string name="Your_age">سن شما</string>
+    <string name="Are_You_The_girl_Or_Boy">دختری یا پسر؟</string>
+    <string name="The_Girl">دختر</string>
+    <string name="The_Boy">پسر</string>
+    <string name="Are_you_Girl_or_boy">دختری یا پسر؟</string>
 </resources>
