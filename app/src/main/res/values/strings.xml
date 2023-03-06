@@ -9,4 +9,11 @@
     <string name="Girl">دختر</string>
     <string name="Boy">پسر</string>
     <string name="Title">برای پیش بینی عشق آینده ات انگشتت را روی قلب زیر بزار و منتظر بمون.</string>
+    <string name="taylor_hill">Taylor Hill</string>
+    <string name="home">Home</string>
+    <string name="about_us">about us</string>
+    <string name="help">help</string>
+    <string name="Contact">Contact</string>
+    <string name="contact">Contact</string>
+    <string name="exit">Exit</string>
 </resources>
