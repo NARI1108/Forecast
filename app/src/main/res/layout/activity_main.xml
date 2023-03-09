@@ -54,6 +54,7 @@
                 android:layout_margin="4dp"
                 android:background="@drawable/edit_text_style"
                 android:gravity="center"
+                android:maxLength="2"
                 android:hint="@string/Your_age"
                 android:inputType="number" />
 
