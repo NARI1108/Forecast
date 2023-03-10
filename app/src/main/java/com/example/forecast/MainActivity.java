@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import java.util.Random;
@@ -18,9 +21,12 @@ public class MainActivity extends AppCompatActivity{
     DrawerLayout drawerLayout;
     NavigationView navigation;
     Toolbar toolBar;
+    RadioButton rdo_grl,rdo_boy;
+    ImageView img_View;
     String [] nameOfGirls={"رستا","الهه","نگار","کیانا","نازنین","ترانه","طناز","بهار","نازنین","سهیلا","آیدا","سوما","المیرا","دریا","سحر","نرگس","رویا","بِهناز","بنیتا","مریم","بهنوش"};
     String [] nameOfBoys ={"امیر","محمد","سعید","حامد","سامان","کیوان","کامران","حمید","علی","بابک","پوریا","هومن","مجید","افشین","رامین","امین","بهروز","سروش","امید","رضا","ساسان"};
     String [] nameOfCities={"بروجرد","اردبیله","تهرانه","خوزستانه","کردستانه","شیراز","همدان","سمنانه","گیلانه","ارومیه","ایلامه","اصفهان","قزوینه","زنجانه","تبریز","مراغه","آذربایجان غریه","یاسوجه","ساوه","ساری"};
+    String res_cities_name , res_girls_names , res_boys_names;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,10 +34,10 @@ public class MainActivity extends AppCompatActivity{
         toolBar = findViewById(R.id.toolBar);
         drawerLayout = findViewById(R.id.drawerLayout);
         navigation = findViewById(R.id.navigation);
-        Random random = new Random();
-        int result = random.nextInt(nameOfGirls.length);
-        Toast.makeText(getApplicationContext(), nameOfGirls[result], Toast.LENGTH_SHORT).show();
-        Log.e("result",result+"");
+        rdo_grl = findViewById(R.id.rdo_grl);
+        rdo_boy = findViewById(R.id.rdo_boy);
+        img_View = findViewById(R.id.img_View);
+
         setSupportActionBar(toolBar);
         ActionBarDrawerToggle toggle;
         toggle = new ActionBarDrawerToggle(this,
@@ -66,6 +72,25 @@ public class MainActivity extends AppCompatActivity{
                return false;
            }
        });
+        img_View.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Random random = new Random();
+                int result = random.nextInt(nameOfGirls.length);
+                int result_2 = random.nextInt(nameOfCities.length);
+                Log.e("result",result+"");
+                res_cities_name = nameOfCities[result_2];
+                Toast.makeText(getApplicationContext(), res_cities_name+"", Toast.LENGTH_SHORT).show();
+                if(rdo_boy.isChecked()){
+                    res_girls_names = nameOfGirls[result];
+                    Toast.makeText(getApplicationContext(), res_girls_names, Toast.LENGTH_SHORT).show();
+                }
+                else if(rdo_grl.isChecked()){
+                    res_boys_names = nameOfBoys[result];
+                    Toast.makeText(getApplicationContext(), res_boys_names, Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     @Override
