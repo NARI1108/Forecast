@@ -1,5 +1,6 @@
 package com.example.forecast;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -99,6 +100,13 @@ public class MainActivity extends AppCompatActivity{
                        Toast.makeText(getApplicationContext(), res_boys_names, Toast.LENGTH_SHORT).show();
                }
                    }
+                   Intent intent = new Intent(MainActivity.this,activity_Result.class);
+                   intent.putExtra("name",name);
+                   intent.putExtra("age",age);
+                   intent.putExtra("res_cities_name",res_cities_name);
+                   intent.putExtra("res_girls_names",res_girls_names);
+                   intent.putExtra("res_boys_names",res_boys_names);
+                   startActivity(intent);
                    return false;
                }
        });
