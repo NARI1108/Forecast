@@ -1,6 +1,7 @@
 package com.example.forecast;
 
 import android.content.Intent;
+import android.os.Vibrator;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity{
     String [] nameOfGirls={"رستا","الهه","نگار","کیانا","نازنین","ترانه","طناز","بهار","نازنین","سهیلا","آیدا","سوما","المیرا","دریا","سحر","نرگس","رویا","بِهناز","بنیتا","مریم","بهنوش"};
     String [] nameOfBoys ={"امیر","محمد","سعید","حامد","سامان","کیوان","کامران","حمید","علی","بابک","پوریا","هومن","مجید","افشین","رامین","امین","بهروز","سروش","امید","رضا","ساسان"};
     String [] nameOfCities={"بروجرد","اردبیله","تهرانه","خوزستانه","کردستانه","شیراز","همدان","سمنانه","گیلانه","ارومیه","ایلامه","اصفهان","قزوینه","زنجانه","تبریز","مراغه","آذربایجان غریه","یاسوجه","ساوه","ساری"};
-    String res_cities_name , res_girls_names , res_boys_names;
+    String res_cities_name , res_girls_names , res_boys_names,res_name;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,21 +92,25 @@ public class MainActivity extends AppCompatActivity{
                    int result_2 = random.nextInt(nameOfCities.length);
                    Log.e("result", result + "");
                    res_cities_name = nameOfCities[result_2];
-                   Toast.makeText(getApplicationContext(), res_cities_name + "", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getApplicationContext(), res_cities_name + "", Toast.LENGTH_SHORT).show();
                    if (rdo_boy.isChecked()) {
                        res_girls_names = nameOfGirls[result];
-                       Toast.makeText(getApplicationContext(), res_girls_names, Toast.LENGTH_SHORT).show();
+                       res_name = res_girls_names;
+                      // Toast.makeText(getApplicationContext(), res_girls_names, Toast.LENGTH_SHORT).show();
                    } else if (rdo_grl.isChecked()) {
                        res_boys_names = nameOfBoys[result];
-                       Toast.makeText(getApplicationContext(), res_boys_names, Toast.LENGTH_SHORT).show();
+                       res_name =res_boys_names;
+                       //Toast.makeText(getApplicationContext(), res_boys_names, Toast.LENGTH_SHORT).show();
                }
                    }
+               Vibrator vibrator = (Vibrator) getSystemService(MainActivity.VIBRATOR_SERVICE);
+               vibrator.vibrate(1500);
                    Intent intent = new Intent(MainActivity.this,activity_Result.class);
                    intent.putExtra("name",name);
                    intent.putExtra("age",age);
                    intent.putExtra("res_cities_name",res_cities_name);
                    intent.putExtra("res_girls_names",res_girls_names);
-                   intent.putExtra("res_boys_names",res_boys_names);
+                   intent.putExtra("res_name",res_name);
                    startActivity(intent);
                    return false;
                }
