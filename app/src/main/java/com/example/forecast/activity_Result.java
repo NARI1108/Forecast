@@ -1,7 +1,9 @@
 package com.example.forecast;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.ColorInt;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -52,6 +54,8 @@ public class activity_Result extends AppCompatActivity {
                     txt_Love.setVisibility(View.VISIBLE);
                     txt_user.setVisibility(View.VISIBLE);
                     txt_finalRes.setVisibility(View.VISIBLE);
+                    MediaPlayer music = MediaPlayer.create(activity_Result.this,R.raw.dream);
+                    music.start();
                 }
             }
         }, 1000);
