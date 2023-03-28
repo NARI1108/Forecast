@@ -97,6 +97,7 @@
             android:gravity="center">
             <RadioButton
                 android:id="@+id/rdo_grl"
+                android:theme="@style/radioStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Girl"
@@ -107,6 +108,7 @@
                 android:textSize="18sp"/>
             <RadioButton
                 android:id="@+id/rdo_boy"
+                android:theme="@style/raidoStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Boy"
