@@ -11,9 +11,10 @@ import android.widget.Toast;
 
 public class activity_Result extends AppCompatActivity {
     String  res_cities_name,res_name;
-    String name_user, age;
+    String name_user;
     TextView txt_user,txt_Love,txt_finalRes,txt_timer;
     int time=3;
+    int age;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +31,8 @@ public class activity_Result extends AppCompatActivity {
         res_cities_name = getIntent().getStringExtra("res_cities_name");
         res_name = getIntent().getStringExtra("res_name");
         name_user = getIntent().getStringExtra("name");
-        age = getIntent().getStringExtra("age");
+        age = getIntent().getIntExtra("age",0);
+
 
         timer();
     }
@@ -49,7 +51,7 @@ public class activity_Result extends AppCompatActivity {
 
                     txt_user.setText(name_user);
                     txt_Love.setText(res_name);
-                    txt_finalRes.setText("اهل "+res_cities_name+" به به بهم میاین چقدر...");
+                    txt_finalRes.setText(" اهل "+res_cities_name+" حدوداً "+ age +"  سالشه  "+" به به بهم میاین... ");
 
                     txt_Love.setVisibility(View.VISIBLE);
                     txt_user.setVisibility(View.VISIBLE);
