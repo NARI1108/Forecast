@@ -142,6 +142,7 @@
         <android.support.design.widget.NavigationView
             android:layout_gravity="left"
             android:id="@+id/navigation"
+            android:background="@drawable/images"
             android:layout_width="250dp"
             android:layout_height="match_parent"
             app:headerLayout="@layout/header"
