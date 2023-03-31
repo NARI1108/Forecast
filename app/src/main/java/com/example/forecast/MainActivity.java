@@ -64,19 +64,18 @@ public class MainActivity extends AppCompatActivity{
         navigation.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                int id = menuItem.getItemId();
-                switch (id) {
-                    case R.id.home:
-                        Toast.makeText(getApplicationContext(), "home", Toast.LENGTH_SHORT).show();
+
+                switch (menuItem.getItemId()) {
+                    case R.id.home:startActivity(new Intent(MainActivity.this,MainActivity.class));
                         break;
                     case R.id.about_Us:
-                        Toast.makeText(getApplicationContext(), "about us", Toast.LENGTH_SHORT).show();
+                       startActivity(new Intent(MainActivity.this,about_Us.class));
                         break;
                     case R.id.help:
-                        Toast.makeText(getApplicationContext(), "help", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this,help.class));
                         break;
                     case R.id.contact:
-                        Toast.makeText(getApplicationContext(), "Contact", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this,content.class));
                         break;
                     case R.id.exit:
                         finish();
@@ -186,5 +185,6 @@ public class MainActivity extends AppCompatActivity{
            }
         }
         super.onActivityResult(requestCode, resultCode, data);
+
     }
 }
