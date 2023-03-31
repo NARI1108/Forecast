@@ -64,19 +64,18 @@ public class MainActivity extends AppCompatActivity{
         navigation.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                int id = menuItem.getItemId();
-                switch (id) {
-                    case R.id.home:
-                        Toast.makeText(getApplicationContext(), "home", Toast.LENGTH_SHORT).show();
+
+                switch (menuItem.getItemId()) {
+                    case R.id.home:startActivity(new Intent(MainActivity.this,MainActivity.class));
                         break;
                     case R.id.about_Us:
-                        Toast.makeText(getApplicationContext(), "about us", Toast.LENGTH_SHORT).show();
+                       startActivity(new Intent(MainActivity.this,about_Us.class));
                         break;
                     case R.id.help:
-                        Toast.makeText(getApplicationContext(), "help", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this,help.class));
                         break;
                     case R.id.contact:
-                        Toast.makeText(getApplicationContext(), "Contact", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this,content.class));
                         break;
                     case R.id.exit:
                         finish();
@@ -89,33 +88,41 @@ public class MainActivity extends AppCompatActivity{
         img_View.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                String name, age;
+                String name;
+                String age;
                 name = edt_name.getText().toString().trim();
                 age = edt_age.getText().toString().trim();
+                int age_int = Integer.parseInt(age);
                 if (TextUtils.isEmpty(name) || age.length() == 0) {
                     Toast.makeText(getApplicationContext(), "Fill it up ", Toast.LENGTH_SHORT).show();
                 } else {
+                    int min=10,max=20;
                     Random random = new Random();
                     int result = random.nextInt(nameOfGirls.length);
                     int result_2 = random.nextInt(nameOfCities.length);
                     Log.e("result", result + "");
+                    int res = random.nextInt(max - min + 1)+ min;
                     res_cities_name = nameOfCities[result_2];
-                    // Toast.makeText(getApplicationContext(), res_cities_name + "", Toast.LENGTH_SHORT).show();
+
                     if (rdo_boy.isChecked()) {
                         res_girls_names = nameOfGirls[result];
                         res_name = res_girls_names;
-                        // Toast.makeText(getApplicationContext(), res_girls_names, Toast.LENGTH_SHORT).show();
+                        int ran = random.nextInt(10);
+                        age_int = age_int-ran;
+
                     } else if (rdo_grl.isChecked()) {
                         res_boys_names = nameOfBoys[result];
                         res_name = res_boys_names;
-                        //Toast.makeText(getApplicationContext(), res_boys_names, Toast.LENGTH_SHORT).show();
+                        int ran = random.nextInt(10);
+                        age_int =age_int + ran;
+
                     }
                 }
                 Vibrator vibrator = (Vibrator) getSystemService(MainActivity.VIBRATOR_SERVICE);
                 vibrator.vibrate(1500);
                 Intent intent = new Intent(MainActivity.this, activity_Result.class);
                 intent.putExtra("name", name);
-                intent.putExtra("age", age);
+                intent.putExtra("age", age_int);
                 intent.putExtra("res_cities_name", res_cities_name);
                 intent.putExtra("res_girls_names", res_girls_names);
                 intent.putExtra("res_name", res_name);
@@ -178,5 +185,6 @@ public class MainActivity extends AppCompatActivity{
            }
         }
         super.onActivityResult(requestCode, resultCode, data);
+
     }
 }

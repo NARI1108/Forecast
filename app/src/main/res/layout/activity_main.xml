@@ -74,6 +74,7 @@
             android:orientation="horizontal">
 
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center"
@@ -97,6 +98,7 @@
             android:gravity="center">
             <RadioButton
                 android:id="@+id/rdo_grl"
+                android:theme="@style/radioStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Girl"
@@ -107,9 +109,10 @@
                 android:textSize="18sp"/>
             <RadioButton
                 android:id="@+id/rdo_boy"
+                android:theme="@style/raidoStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Boy"
+                android:text=" @string/Boy"
                 android:textStyle="bold"
                 android:textColor="#0F0808"
                 android:gravity="center"
@@ -122,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="@string/Title"
+            android:text="@string/title"
             android:textStyle="normal"
             android:textSize="18sp"/>
         <LinearLayout
@@ -134,12 +137,13 @@
                 android:id="@+id/img_View"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:background="@drawable/heart"/>
+                android:background="@drawable/baseline_fingerprint_24"/>
         </LinearLayout>
     </LinearLayout>
         <android.support.design.widget.NavigationView
             android:layout_gravity="left"
             android:id="@+id/navigation"
+            android:background="@drawable/images"
             android:layout_width="250dp"
             android:layout_height="match_parent"
             app:headerLayout="@layout/header"
