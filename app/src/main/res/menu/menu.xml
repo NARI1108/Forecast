@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
      <item  android:id="@+id/home"         android:title="@string/home"       android:icon="@drawable/baseline_home_20"/>
     <item   android:id="@+id/about_Us"     android:title="@string/about_us"   android:icon="@drawable/baseline_person_18"/>
-    <item   android:id="@+id/help"        android:title="@string/help"       android:icon="@drawable/baseline_help_24"/>
-    <item   android:id="@+id/contact"    android:title="@string/contact"    android:icon="@drawable/heart"/>
+    <item   android:id="@+id/guide_game"   android:title="guide game" android:icon="@drawable/baseline_help_24"/>
+    <item   android:id="@+id/contact"      android:title="@string/contact"    android:icon="@drawable/heart"/>
     <item   android:id="@+id/exit"         android:title="@string/exit"       android:icon="@drawable/baseline_exit_to_app_24"/>
 </menu>

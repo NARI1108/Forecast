@@ -14,7 +14,7 @@
         android:layout_marginBottom="500dp"
         android:text="@string/contact_txt"
         android:textColor="#80062F"
-        android:textSize="22sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
