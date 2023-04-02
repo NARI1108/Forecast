@@ -4,6 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".about_Us">
+    tools:context=".about_Us"
+    android:background="@drawable/images">
+
+    <TextView
+        android:layout_width="407dp"
+        android:layout_height="207dp"
+        android:text="@string/about_us_txt"
+        android:textColor="#0A0909"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
 
 </android.support.constraint.ConstraintLayout>
