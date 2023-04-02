@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity{
                     case R.id.about_Us:
                        startActivity(new Intent(MainActivity.this,about_Us.class));
                         break;
-                    case R.id.help:
-                        startActivity(new Intent(MainActivity.this,help.class));
+                    case R.id.guide_game:
+                        startActivity(new Intent(MainActivity.this, Guide_Game.class));
                         break;
                     case R.id.contact:
                         startActivity(new Intent(MainActivity.this,content.class));

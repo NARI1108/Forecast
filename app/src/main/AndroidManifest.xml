@@ -16,10 +16,13 @@
         android:theme="@style/Theme.Forecast"
         tools:targetApi="31">
         <activity
+            android:name=".activity_home"
+            android:exported="false" />
+        <activity
             android:name=".content"
             android:exported="false" />
         <activity
-            android:name=".help"
+            android:name=".Guide_Game"
             android:exported="false" />
         <activity
             android:name=".about_Us"
