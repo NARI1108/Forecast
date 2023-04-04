@@ -2,6 +2,8 @@
 
 <p>This forecast love app is actually a program that you can use to predict your future love.</p>
 
-![1](https://user-images.githubusercontent.com/125409221/229785947-f4e18c05-e4a8-4440-a5cb-78918b88ae56.jpg) ![2](https://user-images.githubusercontent.com/125409221/229785970-5cfff021-957d-4c25-9d3e-546107332f01.jpg) ![3](https://user-images.githubusercontent.com/125409221/229786000-55bfc45e-bd75-4981-9a85-b426f68c8065.jpg)
+![Screenshot (1251)](https://user-images.githubusercontent.com/125409221/229795394-a68d31b9-acb6-44e8-a7dd-3b956e00270a.png)
+![Screenshot (1252)](https://user-images.githubusercontent.com/125409221/229795410-ab7e9155-b918-4d05-9d39-e8adedd868db.png)
+![Screenshot (1253)](https://user-images.githubusercontent.com/125409221/229795423-e6327644-f365-4ff6-844d-fab7df2461c7.png)
 
 
