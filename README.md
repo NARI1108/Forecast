@@ -14,5 +14,7 @@
     برنامه را اجرا کنید و از  آن لذت ببرید
   </li>
 </ul>
+## <img align="left" alt="GIF" height="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhVd3zc60_cBVsl9dLO0oesE3lmX_vBdQjXkGxr3MctjKhi1_THA4HcMS1V53l8IBUyk&usqp=CAU"/> <ul>
 Application programmer <em><strong>Naser Ahmadi</strong></em>.
 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMqURDnHqKOSmTOAQnMu6tVA76Tibe3Gxtw&usqp=CAU
