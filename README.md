@@ -11,9 +11,9 @@
   
   
   <ul>
-           <li>
-                                                  Applicable on all Android operating systems
-           </li>
+         
+       Applicable on all Android operating systems
+          
   <li>
     برنامه را اجرا کنید و از  آن لذت ببرید
   </li>
