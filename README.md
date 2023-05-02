@@ -16,8 +16,11 @@
   </li>
 </ul>
 <code><strong>The purpose of making this application is to familiarize with the following:</strong></code>
-
-
+<ul>
+<li>
+     Material Design training (making a drop-down menuNavigationDrawer)
+</li>
+</ul>
 
 ## <img align="left" alt="GIF" height="50px" src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif"/>    Developer:
 
