@@ -14,7 +14,7 @@
     برنامه را اجرا کنید و از  آن لذت ببرید
   </li>
 </ul>
-## <img align="left" alt="GIF" height="50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMqURDnHqKOSmTOAQnMu6tVA76Tibe3Gxtw&usqp=CAU"/> <ul>
+## <img align="left" alt="GIF" height="50px" src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif"/> <ul>
 Application programmer <em><strong>Naser Ahmadi</strong></em>.
 
 
