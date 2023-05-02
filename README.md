@@ -12,7 +12,7 @@
   
   <ul>
            <li>
-                       Applicable on all Android operating systems
+                                                  Applicable on all Android operating systems
            </li>
   <li>
     برنامه را اجرا کنید و از  آن لذت ببرید
