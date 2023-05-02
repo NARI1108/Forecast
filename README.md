@@ -10,6 +10,9 @@
   <li>
             Applicable on all Android operating systems
 </li>
+  <li>
+    برنامه را اجرا کنید و از  آن لذت ببرید
+  </li>
 </ul>
-برنامه نویس اپلیکیشن <em><strong>ناصر احمدی</strong></em>.
+Application programmer <em><strong>Naser Ahmadi</strong></em>.
 
