@@ -8,7 +8,7 @@
 
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/> <ul>
   <li>
-         Applicable on all Android operating systems
+            Applicable on all Android operating systems
 </li>
 </ul>
 برنامه نویس اپلیکیشن <em><strong>ناصر احمدی</strong></em>.
