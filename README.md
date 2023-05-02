@@ -22,24 +22,24 @@
     <li>
            Material Design training (making a drop-down menuNavigationDrawer)
     </li>  
-    <li>
+     <li>
            Learning how to work with phone vibration in Java language
-    </li>     
-    <li>
+     </li>     
+     <li>
            How to make a Timer in Android Studio
-    </li> 
-    <li>
+     </li> 
+     <li>
            Learning how to create random numbers in Java
-    </li>      
-    <li>
+     </li>      
+     <li>
            Add voice typing to the program
-    </li>       
-    <li>
+     </li>       
+     <li>
            Familiarity with sending information between activities
-    </li>   
-    <li>
+     </li>   
+     <li>
            Learning how to style EditTexts
-   </li>
+     </li>
 </ul>
 
 ## <img align="left" alt="GIF" height="50px" src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif"/>    Developer:
