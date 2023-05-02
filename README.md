@@ -14,9 +14,6 @@
          
        Applicable on all Android operating systems
           
-  <li>
-    برنامه را اجرا کنید و از  آن لذت ببرید
-  </li>
    </ul>
 <code><strong>The purpose of making this application is to familiarize with the following:</strong></code>
 
