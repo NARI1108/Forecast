@@ -6,7 +6,7 @@
 <p>
    <li>This application actually predicts your future love. How? By entering your name and age and placing your fingers on the fingerprint, this app predicts your future love. You even tell you the age and name of the city of your love.</li></p>
 
-## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/> <ul>
+## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>
  <ul>
  <li>
             Applicable on all Android operating systems
@@ -15,7 +15,7 @@
     برنامه را اجرا کنید و از  آن لذت ببرید
   </li>
 </ul>
-## <img align="left" alt="GIF" height="50px" src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif"Application programmer <em><strong>Naser Ahmadi</strong></em>./> 
+## <img align="left" alt="GIF" height="50px" src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif"/> 
 
 
 
