@@ -16,9 +16,23 @@
   </li>
 </ul>
 <code><strong>The purpose of making this application is to familiarize with the following:</strong></code>
+
+
 <ul>
    <li>
-        Material Design training (making a drop-down menuNavigationDrawer)
+           Material Design training (making a drop-down menuNavigationDrawer)
+           
+           Learning how to work with phone vibration in Java language
+           
+           How to make a Timer in Android Studio
+           
+           Learning how to create random numbers in Java
+           
+           Add voice typing to the program
+           
+           Familiarity with sending information between activities
+           
+           Learning how to style EditTexts
    </li>
 </ul>
 
