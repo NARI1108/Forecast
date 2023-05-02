@@ -9,11 +9,8 @@
 ## <img align="left" alt="GIF" height="50px" src="https://www.toptimenet.com/images/setting.gif"/>
 <ul>
   <li>
-    قابل اجرا بر روی تمامی سیستم عامل اندروید
+    Applicable on all Android operating systems
 </li>
-  <li>
-    برنامه را اجرا کنید و از  آن لذت ببرید
-  </li>
 </ul>
 برنامه نویس اپلیکیشن <em><strong>ناصر احمدی</strong></em>.
 
