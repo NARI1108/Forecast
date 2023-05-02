@@ -19,19 +19,25 @@
 
 
 <ul>
-   <li>
+    <li>
            Material Design training (making a drop-down menuNavigationDrawer)
-           
+    </li>  
+    <li>
            Learning how to work with phone vibration in Java language
-           
+    </li>     
+    <li>
            How to make a Timer in Android Studio
-           
+    </li> 
+    <li>
            Learning how to create random numbers in Java
-           
+    </li>      
+    <li>
            Add voice typing to the program
-           
+    </li>       
+    <li>
            Familiarity with sending information between activities
-           
+    </li>   
+    <li>
            Learning how to style EditTexts
    </li>
 </ul>
